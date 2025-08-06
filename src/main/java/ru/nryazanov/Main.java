@@ -2,8 +2,11 @@ package ru.nryazanov;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+private static String msg "Hello QA Guru!!!!";
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello QA Guru!!!!");
+        System.out.println(msg);
     }
 }
